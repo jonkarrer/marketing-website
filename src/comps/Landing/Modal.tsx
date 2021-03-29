@@ -33,7 +33,7 @@ const Modal = ({ popUpState }: ModalProps) => {
             required
           />
           <div className="button-wrapper">
-            <Button pad={10} width={150} popUpState={null}>
+            <Button pad={10} width={11} popUpState={null}>
               Submit
             </Button>
           </div>

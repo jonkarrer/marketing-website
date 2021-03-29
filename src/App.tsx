@@ -26,13 +26,13 @@ function App() {
         <div className="feature-wrapper">
           <Feature image="./assets/left.jpg">100% Wool threads</Feature>
           <Feature image="./assets/middle.jpg">Moisture wicking</Feature>
-          <Feature image="./assets/cute-sock.jpg">Artist designed</Feature>
+          <Feature image="./assets/cute-sock.jpg">Designed by Artists</Feature>
         </div>
         <div className="contact-wrapper">
           <h3>
             We are so glad you dropped by! Here is a special offer just for you.
           </h3>
-          <Button pad={10} width={200} popUpState={setModalState}>
+          <Button pad={10} width={15} popUpState={setModalState}>
             View Offer
           </Button>
         </div>
