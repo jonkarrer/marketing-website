@@ -3,13 +3,13 @@ import './SubTitle.css';
 const SubTitle = () => (
   <div className="SubTitle">
     <h2>
-      Our socks feel <i>Soft</i>
+      Our socks feel <i>Soft.</i>
     </h2>
     <h2>
-      They will keep your feet <i>Dry</i>
+      They will keep your feet <i>Dry.</i>
     </h2>
     <h2>
-      They are really <i>Cute</i>!
+      And they are really <i>Cute</i>!
     </h2>
   </div>
 );
