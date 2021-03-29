@@ -1,0 +1,8 @@
+.Button {
+  background: black;
+}
+.Button:hover {
+  cursor: pointer;
+  background: var(--tertiary);
+  transform: scale(1.05);
+}

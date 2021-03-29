@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Button.css';
 interface ButtonProps {
   children: string;
   pad: number;
@@ -8,13 +8,13 @@ interface ButtonProps {
 const Button = ({ children, pad, width }: ButtonProps) => {
   return (
     <div
-      className=".Button"
+      className="Button"
       style={{
         color: '#fffffe',
-        background: 'black',
         padding: `${pad}px`,
         width: `${width}px`,
         fontSize: '1.5em',
+        borderRadius: '.2em',
       }}
     >
       {children}
