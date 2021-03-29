@@ -1,16 +1,33 @@
 .Feature {
-  font-size: 2em;
   height: 300px;
   width: 300px;
   border: var(--tertiary) solid thick;
-  background: var(--off-white);
+  background: var(--main-grey);
+  border-radius: 0.2em;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.Feature:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 .image {
-  height: 200px;
+  height: 180px;
   width: 300px;
-  background: var(--main-pink);
+  background: var(--main-grey);
 }
 .image img {
   object-fit: fill;
-  height: 200px;
+  height: 180px;
+}
+.Feature h3 {
+  padding: 5px;
+  margin-top: 15px;
+  background: var(--off-white);
+  font-size: 2.3em;
+  width: 90%;
 }
