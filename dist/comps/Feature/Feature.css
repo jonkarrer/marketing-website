@@ -1,0 +1,16 @@
+.Feature {
+  font-size: 2em;
+  height: 300px;
+  width: 300px;
+  border: var(--tertiary) solid thick;
+  background: var(--off-white);
+}
+.image {
+  height: 200px;
+  width: 300px;
+  background: var(--main-pink);
+}
+.image img {
+  object-fit: fill;
+  height: 200px;
+}

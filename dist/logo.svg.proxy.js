@@ -1,1 +1,0 @@
-export default "/marketing-website/dist/logo.svg";
