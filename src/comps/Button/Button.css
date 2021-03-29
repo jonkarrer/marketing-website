@@ -1,5 +1,6 @@
 .Button {
   background: black;
+  font-family: 'Train One', cursive;
 }
 .Button:hover {
   cursor: pointer;
