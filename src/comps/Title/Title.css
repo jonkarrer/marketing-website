@@ -1,0 +1,7 @@
+.Title {
+  color: var(--main-black);
+  font-size: 3em;
+  font-family: 'Train One', cursive;
+  background: var(--main-pink);
+  margin: 15px 200px;
+}

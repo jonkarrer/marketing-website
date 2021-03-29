@@ -1,0 +1,19 @@
+.SubTitle {
+  margin: 15px;
+  border: red solid thin;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SubTitle h2 {
+  font-size: 1.7em;
+  margin: 5px;
+  border: black solid thin;
+  text-align: center;
+  width: 40%;
+  padding: 5px;
+  background: var(--main-black);
+  color: var(--button-text);
+}
