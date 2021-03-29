@@ -13,6 +13,7 @@
 html,
 body {
   background: var(--main-grey);
+  font-family: sans-serif;
 }
 .App {
   text-align: center;
@@ -22,4 +23,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.contact-wrapper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: red solid thin;
+}
+.contact-wrapper h3 {
+  padding: 30px;
+  font-size: 2em;
 }
