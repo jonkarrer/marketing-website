@@ -1,7 +1,11 @@
 import React from 'react';
 import './Modal.css';
 import Button from '../Button/Button';
-const Modal = () => {
+
+interface ModalProps {
+  popUpState: React.Dispatch<React.SetStateAction<boolean>>;
+}
+const Modal = ({ popUpState }: ModalProps) => {
   return (
     <div className="Modal">
       <section className="left-side">
@@ -29,14 +33,16 @@ const Modal = () => {
             required
           />
           <div className="button-wrapper">
-            <Button pad={10} width={150}>
+            <Button pad={10} width={150} popUpState={null}>
               Submit
             </Button>
           </div>
         </form>
       </section>
       <section className="right-side">
-        <div className="close-modal">X</div>
+        <div className="close-modal" onClick={() => popUpState(false)}>
+          X
+        </div>
         <img src="./assets/moisture.jpg" alt="socks and heels" />
       </section>
     </div>

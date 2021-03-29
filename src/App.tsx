@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Title from './comps/Title/Title';
 import SubTitle from './comps/SubTitle/SubTitle';
 import Feature from './comps/Feature/Feature';
@@ -7,6 +7,17 @@ import Modal from './comps/Landing/Modal';
 import './App.css';
 
 function App() {
+  const [popUpModal, setModalState] = useState(false);
+  const renderModal = () => {
+    if (popUpModal) {
+      return (
+        <div className="modal-wrapper">
+          <Modal popUpState={setModalState} />
+        </div>
+      );
+    }
+    return;
+  };
   return (
     <div className="App">
       <Title />
@@ -21,14 +32,12 @@ function App() {
           <h3>
             We are so glad you dropped by! Here is a special offer just for you.
           </h3>
-          <Button pad={10} width={200}>
+          <Button pad={10} width={200} popUpState={setModalState}>
             View Offer
           </Button>
         </div>
       </div>
-      <div className="modal-wrapper">
-        <Modal />
-      </div>
+      {renderModal()}
     </div>
   );
 }

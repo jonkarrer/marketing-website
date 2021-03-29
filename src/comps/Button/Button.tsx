@@ -4,10 +4,12 @@ interface ButtonProps {
   children: string;
   pad: number;
   width: number;
+  popUpState: React.Dispatch<React.SetStateAction<boolean>> | any;
 }
-const Button = ({ children, pad, width }: ButtonProps) => {
+const Button = ({ children, pad, width, popUpState }: ButtonProps) => {
   return (
     <div
+      onClick={() => popUpState(true)}
       className="Button"
       style={{
         color: '#fffffe',
