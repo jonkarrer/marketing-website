@@ -4,7 +4,7 @@
   border: var(--tertiary) solid thick;
   background: var(--main-grey);
   border-radius: 0.2em;
-  padding: 5px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,7 @@
   padding: 5px;
   margin-top: 15px;
   background: var(--tertiary);
-  font-size: 2em;
+  font-size: 2.1em;
   width: 90%;
   color: var(--button-text);
 }
