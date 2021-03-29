@@ -1,7 +1,8 @@
 import React from "../../../_snowpack/pkg/react.js";
 import "./Button.css.proxy.js";
-const Button = ({children, pad, width}) => {
+const Button = ({children, pad, width, popUpState}) => {
   return /* @__PURE__ */ React.createElement("div", {
+    onClick: () => popUpState(true),
     className: "Button",
     style: {
       color: "#fffffe",

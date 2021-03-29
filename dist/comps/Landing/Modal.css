@@ -1,0 +1,76 @@
+.Modal {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  min-height: 700px;
+  max-height: 1200px;
+  width: 50vw;
+  min-width: 800px;
+  max-width: 1200px;
+  background: var(--main-pink);
+}
+.left-side {
+  width: 400px;
+}
+article h4 {
+  padding-bottom: 5%;
+}
+article h1 {
+  padding-bottom: 5%;
+  font-size: 2em;
+}
+article p {
+  border-bottom: black solid 2px;
+  padding-bottom: 5%;
+}
+.discount {
+  border: var(--tertiary) solid thick;
+  padding: 40px 0px;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.discount h1 {
+  font-size: 3em;
+  margin-bottom: 5%;
+}
+.email {
+  padding: 10px;
+  margin-bottom: 10%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: black solid thick;
+  background: none;
+  font-size: 1.5em;
+}
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-side {
+  width: 60%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.right-side img {
+  object-fit: fill;
+  height: 70vh;
+  max-height: 800px;
+}
+.close-modal {
+  position: absolute;
+  font-size: 3em;
+  top: 0;
+  right: 10px;
+  text-align: right;
+}
+.close-modal:hover {
+  cursor: pointer;
+}
