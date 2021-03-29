@@ -11,11 +11,11 @@ function App() {
     className: "feature-wrapper"
   }, /* @__PURE__ */ React.createElement(Feature, {
     image: "./assets/left.jpg"
-  }, "Made with 80% wool"), /* @__PURE__ */ React.createElement(Feature, {
+  }, "100% Wool threads"), /* @__PURE__ */ React.createElement(Feature, {
     image: "./assets/middle.jpg"
   }, "Moisture wicking"), /* @__PURE__ */ React.createElement(Feature, {
     image: "./assets/cute-sock.jpg"
-  }, "Artist designed prints")), /* @__PURE__ */ React.createElement("div", {
+  }, "Artist designed")), /* @__PURE__ */ React.createElement("div", {
     className: "contact-wrapper"
   }, /* @__PURE__ */ React.createElement("h3", null, "We are so glad you dropped by! Here is a special offer just for you."), /* @__PURE__ */ React.createElement(Button, {
     pad: 10,

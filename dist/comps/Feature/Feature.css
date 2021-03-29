@@ -10,6 +10,7 @@
   justify-content: center;
   flex-direction: column;
   transition: all 0.3s ease;
+  font-family: 'Train One', cursive;
 }
 .Feature:hover {
   cursor: pointer;
@@ -27,7 +28,8 @@
 .Feature h3 {
   padding: 5px;
   margin-top: 15px;
-  background: var(--off-white);
-  font-size: 2.3em;
+  background: var(--tertiary);
+  font-size: 2em;
   width: 90%;
+  color: var(--button-text);
 }
