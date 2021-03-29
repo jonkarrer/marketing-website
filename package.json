@@ -1,5 +1,8 @@
 {
+  "homepage": "http://jonkarrer.github.io/marketing-website",
   "scripts": {
+    "predeploy": "npx snowpack build",
+    "deploy": "gh-pages -d build",
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "web-test-runner \"src/**/*.test.tsx\"",
