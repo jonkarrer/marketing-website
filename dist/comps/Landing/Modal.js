@@ -11,10 +11,10 @@ const Modal = ({popUpState}) => {
   }, /* @__PURE__ */ React.createElement("h4", null, "FREE DISCOUNT"), /* @__PURE__ */ React.createElement("h1", null, "Thank you for visiting our website"), /* @__PURE__ */ React.createElement("p", null, "We love our socks and we hope that you will enjoy them as well. They are perfect for hiking, jogging, or around the house. Use this discount for your first purchase.")), /* @__PURE__ */ React.createElement("div", {
     className: "discount"
   }, /* @__PURE__ */ React.createElement("h1", null, "30% off"), /* @__PURE__ */ React.createElement("p", null, "Your first purchase")), /* @__PURE__ */ React.createElement("h3", {
-    style: {marginBottom: "20px", marginLeft: "20px"}
+    style: {marginBottom: "20px", marginLeft: "10px"}
   }, "Put your email below to recieve the coupon"), /* @__PURE__ */ React.createElement("form", {
     action: "get",
-    style: {marginLeft: "20px"}
+    style: {marginLeft: "10px"}
   }, /* @__PURE__ */ React.createElement("input", {
     className: "email",
     type: "email",
@@ -24,7 +24,7 @@ const Modal = ({popUpState}) => {
     className: "button-wrapper"
   }, /* @__PURE__ */ React.createElement(Button, {
     pad: 10,
-    width: 150,
+    width: 11,
     popUpState: null
   }, "Submit")))), /* @__PURE__ */ React.createElement("section", {
     className: "right-side"

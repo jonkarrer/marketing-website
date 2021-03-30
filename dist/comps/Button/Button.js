@@ -7,8 +7,7 @@ const Button = ({children, pad, width, popUpState}) => {
     style: {
       color: "#fffffe",
       padding: `${pad}px`,
-      width: `${width}px`,
-      fontSize: "1.5em",
+      width: `${width}vw`,
       borderRadius: ".2em"
     }
   }, children);

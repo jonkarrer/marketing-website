@@ -1,9 +1,25 @@
 .Button {
   background: black;
   font-family: 'Train One', cursive;
+  font-size: 1.8vw;
 }
 .Button:hover {
   cursor: pointer;
   background: var(--tertiary);
   transform: scale(1.05);
+}
+@media (max-width: 1000px) {
+  .Button {
+    background: black;
+    font-family: 'Train One', cursive;
+    transform: scale(1.9);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 0.6em;
+  }
+  .Button:hover {
+    cursor: pointer;
+    background: var(--tertiary);
+    transform: scale(2);
+  }
 }
