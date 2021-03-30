@@ -39,3 +39,43 @@
   width: 90%;
   color: var(--button-text);
 }
+@media (max-width: 1000px) {
+  .Feature {
+    height: 5vw;
+    width: 5vw;
+    border: var(--tertiary) solid thick;
+    background: var(--main-grey);
+    border-radius: 0.2em;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    font-family: 'Train One', cursive;
+    margin-bottom: 20px;
+  }
+  .Feature:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .image {
+    min-height: 100px;
+    min-width: 200px;
+    background: var(--main-grey);
+  }
+  .image img {
+    object-fit: fill;
+    height: 10vw;
+    max-height: 390px;
+    min-height: 180px;
+  }
+  .Feature h3 {
+    padding: 5px;
+    margin-top: 15px;
+    background: var(--tertiary);
+    font-size: 2em;
+    width: 90%;
+    color: var(--button-text);
+  }
+}

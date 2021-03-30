@@ -56,3 +56,29 @@ body {
   top: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 1000px) {
+  .feature-wrapper {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+  .contact-wrapper h3 {
+    padding: 10px;
+    margin: 15px;
+    font-size: 5vw;
+    width: 90%;
+  }
+  .modal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 200%;
+    width: 100vw;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

@@ -22,10 +22,10 @@ const Modal = ({ popUpState }: ModalProps) => {
           <h1>30% off</h1>
           <p>Your first purchase</p>
         </div>
-        <h3 style={{ marginBottom: '20px', marginLeft: '20px' }}>
+        <h3 style={{ marginBottom: '20px', marginLeft: '10px' }}>
           Put your email below to recieve the coupon
         </h3>
-        <form action="get" style={{ marginLeft: '20px' }}>
+        <form action="get" style={{ marginLeft: '10px' }}>
           <input
             className="email"
             type="email"

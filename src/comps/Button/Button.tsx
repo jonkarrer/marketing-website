@@ -15,7 +15,6 @@ const Button = ({ children, pad, width, popUpState }: ButtonProps) => {
         color: '#fffffe',
         padding: `${pad}px`,
         width: `${width}vw`,
-        fontSize: '1.8vw',
         borderRadius: '.2em',
       }}
     >

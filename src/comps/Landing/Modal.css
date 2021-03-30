@@ -74,3 +74,68 @@ article p {
 .close-modal:hover {
   cursor: pointer;
 }
+@media (max-width: 1000px) {
+  .Modal {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 400px;
+    width: 100vw;
+    min-width: 300px;
+    max-width: 1200px;
+    background: var(--main-pink);
+  }
+  .left-side {
+    width: 100%;
+  }
+  article h4 {
+    padding-bottom: 5%;
+  }
+  article h1 {
+    padding-bottom: 5%;
+    font-size: 2em;
+  }
+  article p {
+    border-bottom: black solid 2px;
+    padding-bottom: 5%;
+  }
+  .discount {
+    border: var(--tertiary) solid thick;
+    width: 60%;
+    margin-bottom: 5%;
+  }
+  .discount h1 {
+    font-size: 3em;
+    margin-bottom: 5%;
+  }
+  .email {
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: black solid thick;
+    background: none;
+    font-size: 1.5em;
+  }
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-side {
+    display: block;
+  }
+  .right-side img {
+    display: none;
+  }
+  .close-modal {
+    position: absolute;
+    font-size: 3em;
+    top: 0;
+    right: 10px;
+    text-align: right;
+  }
+}
